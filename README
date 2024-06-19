@@ -1,0 +1,63 @@
+# Social Networking Project
+
+## Installation
+
+### Local Development
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone <your-repo-url>
+    cd socialnetworking
+    ```
+
+2. **Create a virtual environment and activate it:**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install the dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Apply the migrations:**
+
+    ```bash
+    python manage.py migrate
+    ```
+
+5. **Create a superuser (optional, for admin access):**
+
+    ```bash
+    python manage.py createsuperuser
+    ```
+
+6. **Run the development server:**
+
+    ```bash
+    python manage.py runserver
+    ```
+
+7. **Access the application at:** `http://localhost:8000`
+
+### Docker
+
+1. **Build and run the Docker containers:**
+
+    ```bash
+    docker-compose up --build
+    ```
+
+2. **Access the application at:** `http://localhost:8000`
+
+## Running Tests
+
+To run the automated tests for the application:
+
+```bash
+python manage.py test
+```

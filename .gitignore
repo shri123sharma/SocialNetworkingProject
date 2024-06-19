@@ -1,0 +1,31 @@
+# Virtual environment directory
+dev-env/
+.venv/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Log files
+*.log
+
+# Django database files
+*.sqlite3
+*.db
+
+# Ignore local environment settings (if any)
+*.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Coverage files
+.coverage
+
